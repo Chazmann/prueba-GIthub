@@ -41,7 +41,7 @@ footer{
 }
 .staff{
     width: 100%; /* cada artículo ocupa el 100% del ancho del contenedor */
-    flex: 0 0 300px; /* cada artículo ocupa un espacio fijo de 300px */
+    flex: 0 0 800px; /* cada artículo ocupa un espacio fijo de 300px */
     background-color: #f4f4f4;
     margin: 10px; /* espacio respecto el  titulo */
     padding: 20px; /* espacio interno */
@@ -60,4 +60,12 @@ footer{
 
     border:solid 1px black; /*borde del contenedor*/
     border-radius: 5px; /*redondeo del contenedor*/
+}
+
+.foto{
+    width: 80px; /*ancho fijo para un redondeo circular*/
+    height: 80px; /*la altura es fija */
+    border-radius: 50%; /*redondeo de la foto al 50% para hacerla circular*/
+    background-color: steelblue; /*color de fondo para la foto*/
+    margin-bottom: 3em; /*espacio entre la foto y el nombre*/
 }
